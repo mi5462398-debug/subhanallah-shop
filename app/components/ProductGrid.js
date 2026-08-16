@@ -32,7 +32,7 @@ export default function ProductGrid() {
             image={product.image}
           />
         ))}
-      </div>
+      <div className="product-grid">
     </section>
   );
     }
