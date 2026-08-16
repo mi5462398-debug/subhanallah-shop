@@ -1,5 +1,4 @@
 import ProductGrid from "./components/ProductGrid";
-import HeroBanner from "./components/HeroBanner";
 import Header from "./components/Header";
 import Categories from "./components/Categories";
 import ProductCard from "./components/ProductCard";
@@ -8,8 +7,7 @@ export default function Home() {
   return (
     <main>
 
-      <Header /> 
-    <HeroBanner />
+      <Header />
       <Categories />
 
       <section>
