@@ -1,33 +1,37 @@
 import Header from "./components/Header";
+import Categories from "./components/Categories";
+import ProductCard from "./components/ProductCard";
 
 export default function Home() {
   return (
     <main>
+
       <Header />
+
+      <Categories />
 
       <section>
         <h2>🔥 Featured Products</h2>
 
-        <div>
-          <h3>Product 1</h3>
-          <p>৳ 999</p>
-        </div>
+        <ProductCard
+          name="Smart Gadget"
+          price="999"
+          image="/product.jpg"
+        />
 
-        <div>
-          <h3>Product 2</h3>
-          <p>৳ 1499</p>
-        </div>
+        <ProductCard
+          name="Premium Product"
+          price="1499"
+          image="/product.jpg"
+        />
 
-        <div>
-          <h3>Product 3</h3>
-          <p>৳ 1999</p>
-        </div>
       </section>
 
       <section>
         <h2>🆕 New Products</h2>
         <p>নতুন পণ্য খুব শীঘ্রই যুক্ত হবে।</p>
       </section>
+
     </main>
   );
 }
