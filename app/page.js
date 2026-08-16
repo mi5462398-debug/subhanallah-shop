@@ -1,3 +1,4 @@
+import ProductGrid from "./components/ProductGrid";
 import HeroBanner from "./components/HeroBanner";
 import Header from "./components/Header";
 import Categories from "./components/Categories";
@@ -13,12 +14,8 @@ export default function Home() {
 
       <section>
         <h2>🔥 Featured Products</h2>
-
-        <ProductCard
-          name="Smart Gadget"
-          price="999"
-          image="/product.jpg"
-        />
+         
+     <ProductGrid />
 
         <ProductCard
           name="Premium Product"
