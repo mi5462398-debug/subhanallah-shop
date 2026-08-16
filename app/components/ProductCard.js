@@ -1,10 +1,10 @@
 export default function ProductCard({name, price, image}) {
   return (
-    <div>
-      <img 
-        src={image} 
+    <div className="product-card">
+
+      <img
+        src={image}
         alt={name}
-        width="200"
       />
 
       <h3>{name}</h3>
@@ -14,6 +14,7 @@ export default function ProductCard({name, price, image}) {
       <button>
         🛒 Add to Cart
       </button>
+
     </div>
   );
 }
