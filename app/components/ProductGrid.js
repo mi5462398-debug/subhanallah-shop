@@ -23,7 +23,7 @@ export default function ProductGrid() {
     <section>
       <h2>🔥 Featured Products</h2>
 
-      <div>
+      <div className="product-grid">
         {products.map((product, index) => (
           <ProductCard
             key={index}
@@ -32,7 +32,7 @@ export default function ProductGrid() {
             image={product.image}
           />
         ))}
-      <div className="product-grid">
+      </div>
     </section>
   );
-    }
+}
